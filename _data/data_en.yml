@@ -8,7 +8,7 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Sun Jincheng
+  name: Jincheng Sun 
   tagline: Full Stack Developer
   avatar: cheng.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -51,12 +51,9 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+      I am a Ph.D. student specializing in dexterous robotic manipulation and intelligent control. I am currently an intern at the State Key Laboratory of Robotics, Shenyang Institute of Automation, Chinese Academy of Sciences, where I work with Prof. Yiwen Zhao’s group on motion control algorithms for robotic arms, mobile manipulators, and humanoid robots.
+
+      My research interests include motion planning, trajectory optimization, multimodal perception, and control system integration. I am currently focused on exploring skill learning methods in AI, aiming to endow robots with human-like capabilities through imitation learning and reinforcement learning in dynamic environments.
 education:
   title: Education
   info:
