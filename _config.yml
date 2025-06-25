@@ -2,7 +2,8 @@
 
 # Site Settings
 title: My Resume
-url: 'http://webjeda.com'
+url: "https://cheng9911.github.io"
+baseurl: "/devfolio"   # ← 关键！要和你的 repo 名保持一致
 
 #change it according to your repository name
 # disabling since we are using a custom domain
