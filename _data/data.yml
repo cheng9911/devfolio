@@ -17,10 +17,10 @@ sidebar:
   phone: 15802410495
   timezone: China/Shanghai # 输入你的时区，例如 Asia/Shanghai
   citizenship: 中国
-  website: https://github.com/cheng9911
+  website: '<a href="https://github.com/cheng9911" target="_blank"><i class="fas fa-globe"></i> Webpage</a>'
+  github: '<a href="https://github.com/cheng9911" target="_blank"><i class="fab fa-github"></i> GitHub</a>'
   linkedin: # 可填 LinkedIn 用户名
   xing:
-  github: https://github.com/cheng9911
   telegram:
   gitlab:
   bitbucket:
