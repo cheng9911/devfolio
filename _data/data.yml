@@ -1,268 +1,199 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# 注意：即使是小的语法错误，也可能导致输出失败。
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right # 侧边栏位置：left 或 right
+  about: true # 如果你想移除“如何使用？”一栏，将其设为 false 或注释掉该行
+  education: true # 如果你希望教育经历显示在主区域而非侧边栏，请设为 false
 
-  # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # 个人信息
+  name: 孙金诚
+  tagline: 全栈开发者
+  avatar: cheng.png # 请将 100x100 的头像图像放在 /assets/images/ 文件夹，并填写文件名
 
-  # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
+  # 侧边栏链接
+  email: 1962945668@qq.com
+  phone: 15802410495
+  timezone: China/Shanghai # 输入你的时区，例如 Asia/Shanghai
+  citizenship: 中国
+  website: https://github.com/cheng9911
+  linkedin: # 可填 LinkedIn 用户名
+  xing:
+  github: https://github.com/cheng9911
+  telegram:
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  stack-overflow:
   codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
-
-  languages:
-    title: Languages
-    info:
-    - idiom: English
-      level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+  goodreads:
+  mastodon:
+  hackerrank:
+  leetcode:
+  pdf: # 可填写你的简历 PDF 链接
 
   interests:
-    title: Interests
+    title: 兴趣爱好
     info:
-    - item: Climbing
+    - item: 攀岩
       link:
-
-
-    - item: Snowboarding
+    - item: 单板滑雪
       link:
-
-
-    - item: Cooking
+    - item: 烹饪
       link:
-
 
 career-profile:
-  title: Career Profile
+  title: 职业概况
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    我是一名博士在读研究生，专注于机器人运动控制与技能学习方向的研究。
+    我的研究涵盖模仿学习、强化学习、运动规划等领域，致力于提升机器人在真实环境中的适应能力与自主性。
+
 education:
-  title: Education
+  title: 教育背景
   info:
-  - degree: MSc in Computer Science
-    university: University of London
+  - degree: 计算机科学硕士
+    university: 伦敦大学
     time: 2011 - 2012
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
+      学习期间专注于人工智能、机器学习与系统开发。
+        - 参与多个开源项目
+        - 毕业设计基于强化学习的路径规划
+  - degree: 应用数学学士
+    university: 布里斯托大学
     time: 2007 - 2011
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      主修数学建模与数据分析，辅修计算机科学。
+        - 数学竞赛二等奖
+        - 实习于某金融公司，开发预测模型
 
 experiences:
-  title: Experiences
+  title: 工作经历
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: 首席开发工程师
+    time: 2015 - 至今
+    company: Startup Hubs（旧金山）
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
+      负责后端架构设计与前端交互开发，主导多个 SaaS 项目的研发。
+        - 构建微服务架构
+        - 带领团队完成多个交付
+  - role: 高级软件工程师
     time: 2014 - 2015
-    company: Google, London
+    company: Google（伦敦）
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
+      参与内部工具开发，负责自动化测试与可视化界面设计。
+        - 构建测试框架
+        - 提升系统稳定性
+  - role: 前端工程师
     time: 2012 - 2014
-    company: Amazon, London
+    company: 亚马逊（伦敦）
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      负责多个前端模块的设计与实现，协助优化页面性能。
+        - 页面加载速度提升 40%
+        - 引入响应式设计框架
 
 certifications:
-  title: Certifications
+  title: 认证证书
   list:
-  - name: CV Builder
+  - name: 简历生成器项目开发证书
     start: 2020
     end: 2021
-    organization: Microsoft
+    organization: 微软
     credentialid: 111-222
     credentialurl: www.google.com
     credentialname: Google
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
+      参与微软开源项目，学习项目管理与持续集成部署。
+      掌握 GitHub Actions、CI/CD 流水线等核心技能。
+  - name: Git 学习证书
     start: 2019
     end:
-    organization: Microsoft
+    organization: 微软
     credentialid: 111-222
     credentialurl: www.github.com
-    credentialname: Github
+    credentialname: GitHub
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      系统学习 Git 基础与高级使用技巧，掌握分支管理与协作开发。
 
 projects:
-  title: Projects
+  title: 项目经验
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    以下列出我参与或主导的部分项目，涵盖前端开发、后端架构与全栈集成。
   assignments:
   - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    link: "#"
+    tagline: 响应式网站模板，帮助初创企业推广产品与服务。
 
   - title: DevStudio
     link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    tagline: 专为开发者设计的个人展示模板，支持自适应设计。
 
   - title: Tempo
     link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    tagline: 支持用户注册与支付功能的启动模板。
 
   - title: Atom
     link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    tagline: 综合型网页模板，适用于移动应用推广。
 
   - title: Delta
     link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    tagline: 基于 Bootstrap 的单页应用主题模板，适用于 App 推广。
 
 oss:
-  title: OSS Contributions
+  title: 开源贡献
   intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    以下是我参与或提交贡献的部分开源项目，涉及前端模板与组件开发。
   contributions:
   - title: Tempo
     link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    tagline: 协助重构 UI 样式，提高组件复用性。
 
   - title: Atom
     link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    tagline: 优化移动端显示逻辑，提高加载性能。
 
   - title: Delta
     link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    tagline: 添加页面切换动画，增强用户体验。
 
 publications:
-  title: Publications
+  title: 论文发表
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    以下是我在学习或研究期间发表的部分学术论文与会议论文。
   papers:
   - title: The Art of Computer Programming
     link: "#"
     authors: Donald E. Knuth
     conference: Addison-Wesley, 1968
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+  - title: "Genetic Programming III: Darwinian Invention & Problem Solving"
     link: "#"
     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    conference: Morgan Kaufmann, 1999
 
-  - title: A syntax directed compiler for Algol 60
+  - title: A Syntax Directed Compiler for Algol 60
     link: "#"
     authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+    conference: Communications of the ACM, 1961
 
 recommendations:
-  title: Recommendations
+  title: 推荐信
   list:
   - person: Yareli Perez
     email: perezyareli@example.com
     phone: 012 345 6789
-    role: General Director at example.com
+    role: 某公司总监
     recommendation: |
-      Alan Doe is a super employee!
+      孙金诚是一位非常出色的同事，工作认真、积极主动，具备优秀的技术能力与团队协作精神。
   - person: Lara Henderson
     email: larah@example.com
     phone: 012 345 6789
-    role: General Director at example.com
+    role: 某公司总监
     recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+      我非常愿意再次与孙锦程合作！他是一位值得信赖的员工！
 
 skills:
-  title: Skills &amp; Proficiency
-
+  title: 技能与掌握程度
   toolset:
   - name: Python & Django
     level: 98%
@@ -283,4 +214,4 @@ skills:
     level: 60%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  页面设计来自 <i class="fas fa-heart"></i> <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
