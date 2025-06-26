@@ -1,26 +1,9 @@
-// ---
-
-// ---
-
-// @charset "utf-8";
-
-
-// // define variable with front matter
-// {% if site.data.data.sidebar.position == 'left' %}
-// $resume-order: 2;
-// $sidebar-order: 1;
-// {% else %}
-// $resume-order: 1;
-// $sidebar-order: 2;
-// {% endif %}
-
-// @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
-// @import "default"; // main partials
 ---
 
 ---
 
 @charset "utf-8";
+
 
 // define variable with front matter
 {% if site.data.data.sidebar.position == 'left' %}
@@ -33,6 +16,23 @@ $sidebar-order: 2;
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+// ---
+
+// ---
+
+// @charset "utf-8";
+
+// // define variable with front matter
+// {% if site.data.data.sidebar.position == 'left' %}
+// $resume-order: 2;
+// $sidebar-order: 1;
+// {% else %}
+// $resume-order: 1;
+// $sidebar-order: 2;
+// {% endif %}
+
+// @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
+// @import "default"; // main partials
 
 // === 自定义背景图样式（放在最后） ===
 // body {
