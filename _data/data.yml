@@ -17,8 +17,8 @@ sidebar:
   phone: 15802410495
   timezone: China/Shanghai # 输入你的时区，例如 Asia/Shanghai
   citizenship: 中国
-  website: '<a href="https://github.com/cheng9911" </a>'
-  github: '<a href="https://github.com/cheng9911" </a>'
+  website: 
+  github: 
   linkedin: # 可填 LinkedIn 用户名
   xing:
   telegram:
@@ -206,23 +206,17 @@ recommendations:
 skills:
   title: 技能与掌握程度
   toolset:
-  - name: Python & Django
-    level: 98%
+  - name: Python & C++
+    level: 70%
 
-  - name: Javascript & jQuery
-    level: 98%
+  - name: ROS & ROS2
+    level: 75%
 
-  - name: Angular
-    level: 98%
+  - name: mujoco/Issac Sim
+    level: 70%
 
   - name: HTML5 & CSS
     level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
 
 footer: >
   页面设计来自 <i class="fas fa-heart"></i> <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
